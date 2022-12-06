@@ -1,0 +1,29 @@
+.quadrato {
+  border-radius: 10px 10px 10px 10px;
+  width: 50px;
+  height: 50px;
+  background: red;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1rem;
+}
+
+.col-11 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.col-1 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.container {
+  border: 1px rgb(228, 222, 222) solid;
+  border-radius: 10px 10px 10px 10px;
+}

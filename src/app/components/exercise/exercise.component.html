@@ -1,0 +1,23 @@
+<!-- Contenitore -->
+<div class="container">
+  <!-- ngfor righe lista -->
+  <div class="row col-12" *ngFor="let post of posts">
+    <!-- contenitore quadrato -->
+    <div class="position-relative col-1" style="margin-right: 1rem;">
+      <div
+        class="quadrato position-absolute top-50 start-50 translate-middle"
+      ></div>
+    </div>
+    <!-- contenitore testo -->
+    <div class="row col-11">
+      <!-- riga titolo -->
+      <div class="col-12 title">{{ post.title }}</div>
+      <!-- riga testo -->
+      <div class="col-12 description">{{ post.body }}</div>
+    </div>
+    <!-- dividing line -->
+    <div class="row col-12">
+      <mat-divider></mat-divider>
+    </div>
+  </div>
+</div>
